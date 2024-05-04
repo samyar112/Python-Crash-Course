@@ -10,3 +10,7 @@ print(f"Hi! {names[2]}, {message}")
 print(f"Hi! {names[3]}, {message}")
 print(f"Hi! {names[4]}, {message}")
 
+cars = ["AUDI", "bmw", "TESLA", "JEEP"]
+
+print(f"I would like to drive an {cars[0].title()} one day.\n")
+print(f"I would love to own a {cars[-1].upper()} Wrangler one day.")
