@@ -1,4 +1,4 @@
-FAVORITE_NUMBER = 8
+FAVORITE_NUMBER = 2
 
 def favorite():
     while True: 
