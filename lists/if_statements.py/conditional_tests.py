@@ -55,7 +55,7 @@ print((age_0 >= 1) and (age_1 <= 17))
 def admission_fee(age: int): 
     if age < 4:
         print("Free Admission")
-    elif 4 <=  age <= 18:
+    elif age <= 18:
         print("Admission fee is $25")
     else:
         print("Admission fee is $40")
