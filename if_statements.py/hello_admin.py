@@ -9,3 +9,11 @@ if username in admins:
 else:
      print(f"Hello {username} , thank you for logging again.")
 
+#5-9
+del admins[:]
+print(admins)
+
+if len(admins) == 0: 
+    print("We need to find some users!")
+
+
