@@ -18,6 +18,3 @@ for new_user in lowercase_new_users:
     else: 
         print(new_user)
         print("Username is available.\n")
-        
-
-
