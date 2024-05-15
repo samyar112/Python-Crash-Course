@@ -31,6 +31,7 @@ for name in favorite_languages.keys():
       language = favorite_languages[name].title()
       print(f"{name.title()}, I see you love {language}!")
    
+#6.6 exercise
 #looping through a dictionary's key by sorting.
 poll_takers = ['phil', 'sarah'] 
 for name in sorted(favorite_languages.keys()):
