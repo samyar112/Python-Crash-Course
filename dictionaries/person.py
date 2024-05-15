@@ -30,13 +30,16 @@ print(f"Alison's favorite number is {favorite_numbers['alison']}")
 #6-3
 glossary = {
     "dictionary": "A collection of key-value pairs.\n",
-    "list": "List is a data structure used to store collection of data. Lists are ordered and mutuable.\n",
-    "loop": "Loop is used to iterate through each value in a list."
+    "list": "List is a data structure used to store collection of data. Lists are ordered and mutuable.",
+    "loop": "Loop is used to iterate through each value in a list.",
+    "variables": "Variables store data values.",
+    "Data Types": "Data types define the kind of data Python can handle.",
+    "Conditional Statements": "Conditional statements make decisions in code.",
+    "Functions": "Functions are reusable blocks of code."
 }
 
-print(f"Dictionary: {glossary['dictionary']}\n")
-print(f"List: {glossary['list']}\n")
-print(f"Loop: {glossary['loop']}\n")
+for keys, values in glossary.items():
+    print(f"{keys.title()}: {values}")
 
 python_keyword = glossary.get("if_statements", "This keyword is not here.")
 print(python_keyword)
