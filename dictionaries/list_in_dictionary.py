@@ -16,11 +16,14 @@ favorite_languages = {
     'jen': ['python', 'ruby'],
     'sarah': ['c'],
     'edward': ['ruby', 'go'],
-    'phil': ['python', 'haskell'],
+    'phil': ['python'],
 }
 
 for name, languages in favorite_languages.items():
-    print(f"\n{name.title()} likes the following programming language:")
+    if len(languages) > 1:
+        print(f"\n{name.title()} likes the following programming language are:")
+    else:
+        print(f"\n {name.title()}'s favorite language is: ")
 
     for language in languages:
         print(f"\t{language.upper()}")
