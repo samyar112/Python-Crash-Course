@@ -12,20 +12,25 @@ print(person["last_name"].title())
 print(person["age"])
 print(person["city"].title())
 
-#6-2
+#6-2 #6-10
 favorite_numbers = {
-    "samir": 7,
-    "sagar": 15,
-    "ashok": 10,
-    "trent": 66,
-    "alison": 1
+    "samir": [7, 8, 14,13],
+    "sagar": [15, 11, 6, 3, 9],
+    "ashok": [10, 19, 21],
+    "trent": [66, 56, 23],
+    "alison": [1, 45, 44, 67]
 }
 
-print(f"Samir's favorite number is {favorite_numbers['samir']}") 
-print(f"Sagar's favorite number is {favorite_numbers['sagar']}")
-print(f"Ashok's favorite number is {favorite_numbers['ashok']}")
-print(f"Trent's favorite number is {favorite_numbers['trent']}")
-print(f"Alison's favorite number is {favorite_numbers['alison']}")
+for name, favorite_number in favorite_numbers.items():
+    print(f"\n{name.title()}'s favorite numbers are:")
+
+    for number in favorite_number:
+        print(f"\t{number}")
+# print(f"Samir's favorite number is {favorite_numbers['samir']}") 
+# print(f"Sagar's favorite number is {favorite_numbers['sagar']}")
+# print(f"Ashok's favorite number is {favorite_numbers['ashok']}")
+# print(f"Trent's favorite number is {favorite_numbers['trent']}")
+# print(f"Alison's favorite number is {favorite_numbers['alison']}")
 
 #6-3
 glossary = {
