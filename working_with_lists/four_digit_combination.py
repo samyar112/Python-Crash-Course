@@ -1,8 +1,4 @@
-code = []
 combination1 = int(input("Type your 4-digit code "))
-
-code.append(combination1)
-print(code)
 
 for d1 in range(10):
     for d2 in range(10):
